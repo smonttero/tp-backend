@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { MONGO_URI } from "./utils/config.js";
+import { MONGO_URI } from "./config";
 
 export const conectarDB = async () => {
   try {
@@ -7,6 +7,6 @@ export const conectarDB = async () => {
     console.log(`Connect to ${mongoose.connect.name}`);
   } catch (error) {
     console.error(`Could not connect ${error.message}`);
-    procces.exit(1);
+    process.exit(1);
   }
 };
