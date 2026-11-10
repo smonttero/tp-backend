@@ -34,6 +34,6 @@ const productSchema = new mongoose.Schema({
       message: "El stock tiene que ser un numero entero",
     },
   }
+  
 
-    
 });
