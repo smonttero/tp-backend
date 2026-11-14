@@ -14,7 +14,7 @@ app.use(express.json())
 //rutas
 app.use('/categories', categoryRoutes)
 
-app.use('/product', productRoutes)
+app.use('/products', productRoutes)
 
 
 
