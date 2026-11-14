@@ -1,7 +1,8 @@
 import express from 'express'
-import { PORT } from  '../src/utils/config.js'
-import { conectarDB } from '../src/utils/db.js'
+import { PORT } from  './utils/config.js'
+import { conectarDB } from './utils/db.js'
 import categoryRoutes from './routes/categoryRoute.js'
+import productRoutes from './routes/productRoute.js'
 
 await conectarDB()
 
@@ -12,6 +13,8 @@ app.use(express.json())
 
 //rutas
 app.use('/categories', categoryRoutes)
+
+app.use('/product', productRoutes)
 
 
 
