@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
-import { PORT } from  './utils/config.js'
-import { conectarDB } from './utils/db.js'
+import { PORT } from  './config/config.js'
+import { conectarDB } from './config/db.js'
 import categoryRoutes from './routes/categoryRoute.js'
 import productRoutes from './routes/productRoute.js'
 
