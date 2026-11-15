@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 import { PORT } from  './utils/config.js'
 import { conectarDB } from './utils/db.js'
 import categoryRoutes from './routes/categoryRoute.js'
@@ -8,6 +9,7 @@ await conectarDB()
 
 const app = express()
 
+app.use(cors())
 app.use(express.json())
 
 
