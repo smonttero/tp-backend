@@ -133,9 +133,10 @@ tp-backend/
     ├── routes/               # Definición de rutas
     │   ├── categoryRoute.js
     │   └── productRoute.js
+    ├── config/
+    │   ├── config.js         # Lectura de variables de entorno
+    │   └── db.js             # Conexión a MongoDB
     └── utils/
-        ├── config.js         # Lectura de variables de entorno
-        ├── db.js             # Conexión a MongoDB
         └── ErrorApp.js       # Error personalizado con código HTTP
 ```
 
