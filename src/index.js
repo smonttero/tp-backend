@@ -4,6 +4,7 @@ import { PORT } from  './config/config.js'
 import { conectarDB } from './config/db.js'
 import categoryRoutes from './routes/categoryRoute.js'
 import productRoutes from './routes/productRoute.js'
+import userRoute from './routes/userRoute.js'
 
 await conectarDB()
 
@@ -17,6 +18,8 @@ app.use(express.json())
 app.use('/categories', categoryRoutes)
 
 app.use('/products', productRoutes)
+
+app.use('/users', userRoute)
 
 
 
