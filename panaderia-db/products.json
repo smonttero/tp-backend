@@ -1,0 +1,107 @@
+[
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b2001"
+    },
+    "name": "Pan de campo",
+    "description": "Pan rústico de corteza crocante, horneado todas las mañanas.",
+    "price": 3200,
+    "stock": 40,
+    "unit": "unidad",
+    "isGlutenFree": false,
+    "isAvailable": true,
+    "category": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1001"
+    },
+    "createdAt": {
+      "$date": "2026-10-02T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-02T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b2002"
+    },
+    "name": "Medialunas de manteca x12",
+    "description": "Docena de medialunas de manteca, livianas y glaseadas.",
+    "price": 4800,
+    "stock": 25,
+    "unit": "docena",
+    "isGlutenFree": false,
+    "isAvailable": true,
+    "category": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1002"
+    },
+    "createdAt": {
+      "$date": "2026-10-02T08:10:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-02T08:10:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b2003"
+    },
+    "name": "Torta Rogel",
+    "description": "Capas de masa crocante con dulce de leche y merengue italiano.",
+    "price": 18500,
+    "stock": 6,
+    "unit": "unidad",
+    "isGlutenFree": false,
+    "isAvailable": true,
+    "category": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1003"
+    },
+    "createdAt": {
+      "$date": "2026-10-02T08:20:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-02T08:20:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b2004"
+    },
+    "name": "Pan de masa madre integral",
+    "description": "Fermentación lenta de 24 horas, con harina integral.",
+    "price": 4100,
+    "stock": 15,
+    "unit": "unidad",
+    "isGlutenFree": false,
+    "isAvailable": true,
+    "category": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1001"
+    },
+    "createdAt": {
+      "$date": "2026-10-02T08:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-02T08:30:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b2005"
+    },
+    "name": "Alfajores de maicena sin TACC x6",
+    "description": "Seis alfajores de maicena con dulce de leche y coco rallado.",
+    "price": 6500,
+    "stock": 18,
+    "unit": "unidad",
+    "isGlutenFree": true,
+    "isAvailable": true,
+    "category": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1004"
+    },
+    "createdAt": {
+      "$date": "2026-10-02T08:40:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-02T08:40:00.000Z"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1001"
+    },
+    "name": "Panes",
+    "description": "Panes de campo, de masa madre, integrales y más.",
+    "createdAt": {
+      "$date": "2026-10-01T10:05:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-01T10:05:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1002"
+    },
+    "name": "Facturas",
+    "description": "Medialunas, vigilantes, cañoncitos y facturas surtidas.",
+    "createdAt": {
+      "$date": "2026-10-01T10:06:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-01T10:06:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1003"
+    },
+    "name": "Tortas",
+    "description": "Tortas y postres para festejos.",
+    "createdAt": {
+      "$date": "2026-10-01T10:07:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-01T10:07:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "665f1a2b3c4d5e6f7a8b1004"
+    },
+    "name": "Sin TACC",
+    "description": "Productos elaborados sin gluten, en línea separada.",
+    "createdAt": {
+      "$date": "2026-10-01T10:08:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-01T10:08:00.000Z"
+    }
+  }
+]
