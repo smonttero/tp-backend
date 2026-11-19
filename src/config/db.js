@@ -4,7 +4,7 @@ import { MONGO_URI } from "./config.js";
 export const conectarDB = async () => {
   try {
     await mongoose.connect(MONGO_URI);
-    console.log(`Connected to ${mongoose.connect.name}`);
+    console.log(`Connected to ${mongoose.connection.name}`);
   } catch (error) {
     console.error(`Could not connect ${error.message}`);
     process.exit(1);
