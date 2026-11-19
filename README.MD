@@ -121,7 +121,7 @@ También hay un `.env.example` con el mismo formato. Si usás otra conexión (po
 
 ### Cargar los datos de ejemplo (opcional)
 
-Los datos de ejemplo se pueden importar desde MongoDB Compass: creá la base `panaderia` y, en cada colección, usá **Add Data → Import JSON or CSV file**. Hay que importar los archivos de las colecciones `categories` y `products`. Los usuarios conviene crearlos desde la API (ver más abajo), porque los de `users.json` tienen contraseñas de ejemplo que no sirven para iniciar sesión.
+Los datos de ejemplo están en la carpeta `panaderia-db`. Se importan desde MongoDB Compass: creá la base `panaderia` y, en cada colección, usá **Add Data → Import JSON or CSV file**. Importá `categories.json` en la colección `categories` y `products.json` en `products`. Los usuarios conviene crearlos desde la API (ver más abajo).
 
 ### Ejecución
 
